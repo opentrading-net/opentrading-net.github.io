@@ -160,6 +160,7 @@
       var titleParameter = decodeURIComponent(urlParameters['title']);
       console.log('script: ' + scriptParameter);
       console.log('title: ' + titleParameter);
+      console.log('title span: ' + $('#diagramTitle').text())
       $('#diagramTitle').text(titleParameter);
       myCodeMirror.setValue(scriptParameter);
   

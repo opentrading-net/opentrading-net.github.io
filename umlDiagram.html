@@ -38,12 +38,44 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html#">
+      <img href="https://dotuml.com/img/dotuml.40.png" width="40" height="40" alt="DotUML" srcset="https://dotuml.com/img/dotuml.80.png 2x"> DotUML
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#diagrams">Diagrams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="documentation.html">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="playground.html" target="DotUML Playground"><u>Playground</u></a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <main role="main" class="m-2">
     <header>
       <h1>
-        <span style="font-size: 50%">My UML diagram</span>
+        <span id='#diagramTitle' style="font-size: 50%">Title</span>
       </h1>
     </header>
     <div class="row">
@@ -125,7 +157,10 @@
       init();
       var urlParameters = getUrlVars();
       var scriptParameter = decodeURIComponent(urlParameters['script']);
-      console.log('script');
+      var titleParameter = decodeURIComponent(urlParameters['title']);
+      console.log('script: ' + scriptParameter);
+      console.log('title: ' + titleParameter);
+      $('#diagramTitle').text(titleParameter);
       myCodeMirror.setValue(scriptParameter);
   
     });

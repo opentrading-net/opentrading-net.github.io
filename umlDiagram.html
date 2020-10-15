@@ -1,0 +1,142 @@
+<html lang="en">
+    <head>
+      <title>AirTable Experiment</title>
+      <!-- Bootstrap CSS and Javascript-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha256-Ww++W3rXBfapN8SZitAvc9jw2Xb+Ixt0rvDsmWmQyTo=" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" integrity="sha256-9nt4LsWmLI/O24lTW89IzAKuBqEZ47l/4rh1+tH/NY8=" crossorigin="anonymous"></script>
+      <!-- Core dotuml resources-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.57.0/lib/codemirror.css" integrity="sha256-F8x+Z3ibZvrT6AYhdYRAhBaA77XYocFUTGA/lMGNVYE=" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/viz.js@2.1.2/viz.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/viz.js@2.1.2/full.render.js" integrity="sha256-Ogqs510LFnekr9o7OLdpelaaAmNss9egQRTyzCqV2NQ=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js" integrity="sha256-uNYoXefWRqv+PsIF/OflNmwtKM4lStn9yrz2gVl6ymo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js" integrity="sha256-9GNxAyAInGHQ9XzsK4hsAt4E4h65Lr0i6qMn/fCmt8Y=" crossorigin="anonymous"></script>
+      <!-- Do NOT use SRI with dynamically generated files! -->
+      <script src="https://cdn.jsdelivr.net/npm/codemirror@5.57.0/lib/codemirror.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/codemirror@5.57.0/addon/mode/simple.js" integrity="sha256-5UrW8bYk5508xYjP4fekJ1+PyaJlTT8snbZwjmIqEjI=" crossorigin="anonymous"></script>
+      <!-- dotuml scrips -->
+      <!-- <script language="JavaScript" type="text/javascript" src="https://dotuml.com/js/polyfill.js"></script> -->
+      <script language="JavaScript" type="text/javascript" src="https://dotuml.com/js/codemirror.mode.dotuml.js"></script>
+      <script language="JavaScript" type="text/javascript" src="https://dotuml.com/js/dotuml.bundle.js"></script>
+      <script language="JavaScript" type="text/javascript" src="https://dotuml.com/js/playground.js"></script>
+      <!-- Main CSS and Javascript -->
+      <link rel="stylesheet" href="https://dotuml.com/css/playground.css">
+      <link rel="stylesheet" href="https://dotuml.com/css/codemirror.mode.dotuml.css">
+      <!-- for IE11-->
+      <script src="https://cdn.jsdelivr.net/npm/es6-promise@4.2.8/dist/es6-promise.auto.min.js" integrity="sha256-Xxrdry6fWSKu1j2ALyuK/gHFQ+2Bp76ZrR6f3QXI47Y=" crossorigin="anonymous"></script>
+      <!-- For IE only - Canvas to PNG -->
+      <!-- Required to convert named colors to RGB -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/1.4/rgbcolor.min.js"></script>
+      <!-- Optional if you want blur -->
+      <script src="https://cdn.jsdelivr.net/npm/stackblur-canvas@2.4.0/dist/stackblur.min.js" integrity="sha256-00lxhrdOjlyYTYid/L3ErD1+cz3k9gBSPFOkhaleh7o=" crossorigin="anonymous"></script>
+      <!-- Main canvg code -->
+      <script src="https://cdn.jsdelivr.net/npm/canvg@1.5.3/dist/browser/canvg.min.js" integrity="sha256-XsUAmGnTVnYKNTkRToUOSAszDTtVHiVWUHHVQ66pzZE=" crossorigin="anonymous"></script>
+
+    </head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  </nav>
+
+  <main role="main" class="m-2">
+    <header>
+      <h1>
+        <span style="font-size: 50%">My UML diagram</span>
+      </h1>
+    </header>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-12">
+        <div class="card">
+          <div class="card-header">
+            <span >Diagram</span>
+            <div class="float-right">
+              <div class="dropdown d-inline-block">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuImage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Get as
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuImage">
+                  <a class="dropdown-item" href="#">PNG</a>
+                  <a class="dropdown-item" href="#">SVG</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body p-0">
+            <div class="svgFrame" id="svg" style="visibility: visible;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">    
+        <div class="col-6 col-sm-6 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <span>Script</span>
+                <div class="float-right">              
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <textarea id="code" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style="display: none;">
+                </textarea>
+                <div class="CodeMirror cm-s-default"/>
+              </div>
+            </div>
+        </div>            
+        <div class="col-6 col-sm-6 col-md-6">
+            <div class="alert alert-danger" role="alert" id="parseError" style="visibility: hidden;"></div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModalCenter" tabindex="-1" role="dialog" aria-labelledby="imageModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="imageModalCenterTitle"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="modal-content" id="img01"/>
+          </div>
+          <div class="modal-footer">            
+            <a id="download" download="dotuml"><button type="button" class="btn btn-sm btn-secondary">Download</button></a>
+            <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- hidden element for dotuml -->
+    <div id="dotUmlHiddenSvg" style="width: 0; height: 0; visibility: hidden;"></div>
+
+  </main>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    $(document).ready(function () {
+      init();
+      var urlParameters = getUrlVars();
+      var scriptParameter = decodeURIComponent(urlParameters['script']);
+      console.log('script');
+      myCodeMirror.setValue(scriptParameter);
+  
+    });
+    
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+  </script>
+
+</body></html>

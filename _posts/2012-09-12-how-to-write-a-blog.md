@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-tag: welcome foo
-category: introduction company
+tags: welcome foo
+categories: introduction company
 ---
 
 # Welcome

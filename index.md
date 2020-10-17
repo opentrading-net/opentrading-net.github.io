@@ -2,6 +2,6 @@
 layout: frontpage
 ---
 
-## Welcome to Open Trading Network's documentation web site
+## Welcome to Open Trading Network''s documentation web site
 
-Here you'll find our blog articles and product documentation 
+Here you''ll find our blog articles and product documentation 

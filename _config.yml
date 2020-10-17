@@ -27,6 +27,7 @@ disqus_url: "http://???.github.io"
 
 # Build settings
 markdown: kramdown
+paginate: 5
 
 # highlight
 # highlighter: pygments

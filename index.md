@@ -2,7 +2,6 @@
 layout: frontpage
 ---
 
-## Welcome to my website
+## Welcome to Open Trading Network's documentation web site
 
-This is the place where I share my ideas on topics like [Paracraft](http://www.paracraft.cn) software design, artificial intelligence and education. 
-Feel free to send me emails or join our team. 
+Here you'll find our blog articles and product documentation 

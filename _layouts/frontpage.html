@@ -38,6 +38,7 @@ layout: default
                     <h2>
                     {{ post.title }}
                     </h2>
+                    <span class="post-meta">{{ post.excerpt }}</span>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
                   </a>
                 {% endif %}
@@ -61,6 +62,20 @@ layout: default
       {% for category in site.categories %}
         <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
           {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        Tags
+      </div>
+      
+      <a href="javascript:;" class="categories-list-item" cate="All">
+        All<span class="my-badge"> {{site.posts | size}}</span>
+      </a>
+      {% for tag in site.tags %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ tag | first }}">
+          {{ tag | first }} <span class="my-badge">{{ tag | last | size }}</span>
         </a>
       {% endfor %}
     </div>

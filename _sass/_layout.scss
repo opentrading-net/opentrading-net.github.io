@@ -188,6 +188,12 @@
     color: $grey-color;
 }
 
+.post-excerpt {
+    font-size: $small-font-size;
+    color: $grey-color;
+    font-style: italic;
+}
+
 .post-link {
     display: block;
     font-size: 24px;

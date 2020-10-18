@@ -22,7 +22,8 @@ layout: default
           {% for post in site.posts %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
               <h2>
-              {{ post.title }}
+                <img src="static/img/OTN enso-transparent background.png" alt="Open Trading Network logo" width="20" height="20">
+                {{ post.title }}
               </h2>
               <span class="post-meta">{{ post.excerpt }}</span>
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -38,7 +39,7 @@ layout: default
                   <a href="{{ post.url }}" class="post-list-item">
                     <h2>
                       <img src="static/img/OTN enso-transparent background.png" alt="Open Trading Network logo" width="20" height="20">
-                    {{ post.title }}
+                      {{ post.title }}
                     </h2>
                     <span class="post-excerpt">{{ post.excerpt }}</span>
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>

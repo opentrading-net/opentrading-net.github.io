@@ -182,8 +182,6 @@ navigation_header:
   url: /products/
 - title: Posts
   url: /blog/
-- title: Categories
-  url: /categories/
 - title: About
   url: /about/
 - title: Search

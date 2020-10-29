@@ -5,4 +5,11 @@ categories: Architecture API
 tags: JSON XML API Swagger OAS 
 comments: true
 ---
-TODO
+
+## JSON
+
+JSON is a boy's name
+
+## XML
+
+XML is a girl's name

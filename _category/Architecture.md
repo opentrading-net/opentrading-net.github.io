@@ -1,4 +1,4 @@
 ---
 tag: Architecture
-permalink: "/category/Architecture"
+permalink: "/category/architecture"
 ---

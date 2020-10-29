@@ -1,4 +1,4 @@
 ---
 tag: Tesseract
-permalink: "/category/Tesseract"
+permalink: "/category/tesseract"
 ---

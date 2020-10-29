@@ -1,0 +1,41 @@
+// Background colours
+$backgroundColour: #ffffff !default;
+$codeBackgroundColour: #fafafa !default;
+$featureBackgroundColour: #f9fafa !default;
+$accentColour: #3705bf !default;
+
+// Text colours
+$headingColour: #0c0c0c !default;
+$bodyColour: #a09c9c !default;
+$linkColour: #687ab6 !default;
+$hoverColour: #2c3b94 !default;
+$focusColour: #fa407a !default;
+$captionColour: #a8adac !default;
+$white: #ffffff !default;
+
+// Typography
+$bodytype: (
+  font-family:  '"Gotham A","Gotham B",sans-serif',
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75,
+  font-size: small
+) !default;
+
+$headingtype: (
+  font-family: '"Gotham A","Gotham B",sans-serif',
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75,
+  font-size: small
+) !default;
+
+$monospacetype: (
+  font-family: "Menlo, monospace",
+  regular: 400,
+  cap-height: 0.68,
+  font-size: small
+) !default;
+
+

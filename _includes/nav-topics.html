@@ -1,0 +1,12 @@
+{% assign topics = site.pages | where:"product",page.product | group_by: 'topic' %}
+<nav class="nav  nav--categories">
+  {% for topic in topics %}
+    <h3>{{ topic.name | capitalize }}</h3>
+    <ul>
+      {% assign items = topic.items | sort: 'sort_order' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</nav>

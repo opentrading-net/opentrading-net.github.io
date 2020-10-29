@@ -1,0 +1,207 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site favicons & manifest icons
+# 9. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
+
+# 2. Installed Gems
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+
+# 3. Gem settings
+paginate: 5 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+author: DavidDarnes # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: David Darnes # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/DavidDarnes
+    - https://www.facebook.com/daviddarnes
+    - https://www.linkedin.com/in/daviddarnes
+    - https://github.com/daviddarnes
+# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+# commonmark:
+  # options: ["SMART", "FOOTNOTES"]
+  # extensions: ["strikethrough", "autolink", "table"]
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/London # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "Open experiences in trading.." # The post list page content
+    feature_image: "https://docs.opentrading.net/custom-alembic/assets/josiah-gascho-BA-sT9iabco-unsplash.jpg"
+    aside: true
+  category:
+    output: true
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
+  -
+    scope:
+      path: ""
+      type: "category"
+    values:
+      layout: category # Set the default layout for category
+  -
+    scope:
+      path: "products"
+    values:
+      layout: product # Set the default layout for category
+      aside: true
+  -
+    scope:
+      path: "products/tesseract"
+    values:
+      topic: Introduction
+      sort_order: 1
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-6.gif"
+      product: tesseract
+  -
+    scope:
+      path: "products/tesseract/interface"
+    values:
+      topic: Interface
+      sort_order: 4
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-3.gif"
+  -
+    scope:
+      path: "products/tesseract/deployment"
+    values:
+      topic: Deployment
+      sort_order: 5
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-5.gif"
+  -
+    scope:
+      path: "products/tesseract/development"
+    values:
+      topic: Development
+      sort_order: 6
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-7.gif"
+  -
+    scope:
+      path: "products/tesseract/object-store"
+    values:
+      topic: "Object Store"
+      sort_order: 2
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-1.gif"
+  -
+    scope:
+      path: "products/tesseract/types-and-scripting"
+    values:
+      topic: "Types and Scripting"
+      sort_order: 3
+      feature_image: "https://docs.opentrading.net/custom-alembic/products/tesseract/images/Orthogonal_Tesseract_Gif-2.gif"
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "Open Trading Network" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logos/OTN logo.png" # Site logo, also used in jekyll-seo-tag
+small_logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
+description: "Open Trading Network's web site" # Site description and default description, also used in jekyll-seo-tag
+url: "http://docs.opentrading.net/custom-alembic/" # Site url, also used in jekyll-seo-tag
+baseurl: "/custom-alembic/"
+repo: "https://github.com/daviddarnes/alembic"
+email: "me@daviddarnes.com"
+# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# google_analytics: ''
+# google_analytics_anonymize_ip: ''
+# service_worker: false # Will turn off the service worker if set to false
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+# 8. Site favicons & manifest icons
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'
+
+# 9. Site navigation
+navigation_header:
+- title: Home
+  url: /
+- title: Products
+  url: /products/
+- title: Posts
+  url: /blog/
+- title: Categories
+  url: /categories/
+- title: About
+  url: /about/
+- title: Search
+  url: /search/
+
+navigation_footer:
+- title: Created by Open Trading Network
+  url: https://docs.opentrading.net
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/OpenTradingNet
+  LinkedIn: https://www.linkedin.com/company/open-trading-network
+  GitHub: https://github.com/opentrading-net.github.io
+  link: https://docs.opentrading.net
+  RSS: /feed.xml
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  LinkedIn: true
+  Email: true

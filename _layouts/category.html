@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<h1>{{ page.tag }}</h1>
+
+<ul class="list  list--posts">
+{% for post in site.categories[page.tag] %}
+    {% assign has_categories = true %}
+    <li class="item  item--post">
+        <article class="article  article--post  typeset">
+        <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ page.title }}</a></h3>
+        {% include post-meta.html %}
+        {{ page.excerpt | truncatewords: 60 | markdownify }}
+        </article>
+    </li>
+    {% endfor %}
+</ul>
+{% unless forloop.last %}<hr/>{% endunless %}
+
+{% if has_categories != true %}
+  <section class="section  typeset">
+    <p>There are no categorised posts</p>
+  </section>
+{% endif %}

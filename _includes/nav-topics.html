@@ -5,7 +5,9 @@
     <ul>
       {% assign items = topic.items %}
       {% for item in items %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
       {% endfor %}
     </ul>
   {% endfor %}

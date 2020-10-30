@@ -1,4 +1,4 @@
-{% assign topics = site.pages | where:"product",page.product | group_by: 'topic' %}
+{% assign topics = site.pages | sort: 'sort_order' | where:"product",page.product | group_by: 'topic'  %}
 <nav class="nav  nav--categories">
   {% for topic in topics %}
     <h3>{{ topic.name | capitalize }}</h3>

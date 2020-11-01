@@ -1,0 +1,11 @@
+{% assign feature_text = page.post_feature_text %}
+{% assign feature_image = page.post_feature_image %}
+{% if page.collectionpage %}
+  {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+  {% assign feature_text = collectiondata.post_feature_text %}
+  {% assign feature_image = collectiondata.post_feature_image %}
+{% endif %}
+
+{% if feature_text or feature_image %}
+  img src="{{ site.baseurl }}assets/post_feature)images/{{ feature_image }}" alt="{{ feature_text}}"/>
+{% endif %}

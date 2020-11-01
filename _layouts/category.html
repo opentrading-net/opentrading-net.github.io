@@ -5,34 +5,55 @@ layout: default
 {% include site-header.html %}
 
 <main class="main  container">
+  <div class="content">
 
-  <h1>{{ page.tag }}</h1>
+    <article class="article  article--page  typeset">
+    <h1>{{ page.tag }}</h1>
 
-  {% if page.tag == "All" %}
-    {% if paginator.posts %}
-      <section class="section  typeset">
-        <ul class="list  list--posts">
-          {% for page in paginator.posts %}
-            <li class="item  item--post">
-              <article class="article  article--post">
+    {% if page.tag == "All" %}
+      {% if paginator.posts %}
+        <section class="section  typeset">
+          <ul class="list  list--posts">
+            {% for page in paginator.posts %}
+              <li class="item  item--post">
+                <article class="article  article--post">
 
-                <h3>
-                  <img src="{{ site.baseurl }}{{ site.small_logo }}" alt="{{ site.title | append: ' logo' }}"  width="30" height="30"/>
-                  <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}!</a>
-                </h3>
-                {% include post-meta.html %}
-                {{ page.excerpt | markdownify | truncatewords: 60 }}
+                  <h3>
+                    <img src="{{ site.baseurl }}{{ site.small_logo }}" alt="{{ site.title | append: ' logo' }}"  width="30" height="30"/>
+                    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}!</a>
+                  </h3>
+                  {% include post-meta.html %}
+                  {{ page.excerpt | markdownify | truncatewords: 60 }}
 
-              </article>
-            </li>
-          {% endfor %}
-        </ul>
-        {% include post-pagination.html %}
-      </section>
+                </article>
+              </li>
+            {% endfor %}
+          </ul>
+          {% include post-pagination.html %}
+        </section>
+      {% else %}
+        <section class="section  typeset">
+          <ul class="list  list--posts">
+            {% for page in site.posts %}
+              <li class="item  item--post">
+                <article class="article  article--post">
+
+                  <h3>
+                    <img src="{{ site.baseurl }}{{ site.small_logo }}" alt="{{ site.title | append: ' logo' }}"  width="30" height="30"/>
+                    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                  </h3>
+                  {% include post-meta.html %}
+                  {{ page.excerpt | markdownify | truncatewords: 60 }}
+                </article>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
     {% else %}
       <section class="section  typeset">
         <ul class="list  list--posts">
-          {% for page in site.posts %}
+          {% for page in site.categories[page.tag] %}
             <li class="item  item--post">
               <article class="article  article--post">
 
@@ -42,35 +63,18 @@ layout: default
                 </h3>
                 {% include post-meta.html %}
                 {{ page.excerpt | markdownify | truncatewords: 60 }}
+
               </article>
             </li>
           {% endfor %}
         </ul>
       </section>
     {% endif %}
-  {% else %}
-    <section class="section  typeset">
-      <ul class="list  list--posts">
-        {% for page in site.categories[page.tag] %}
-          <li class="item  item--post">
-            <article class="article  article--post">
-
-              <h3>
-                <img src="{{ site.baseurl }}{{ site.small_logo }}" alt="{{ site.title | append: ' logo' }}"  width="30" height="30"/>
-                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-              </h3>
-              {% include post-meta.html %}
-              {{ page.excerpt | markdownify | truncatewords: 60 }}
-
-            </article>
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
+    
+    </article>
+  </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
 </main>
 
 {% include site-footer.html %}

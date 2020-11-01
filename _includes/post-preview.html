@@ -4,6 +4,7 @@
     <img src="{{ site.baseurl }}{{ site.small_logo }}" alt="{{ site.title | append: ' logo' }}"  width="30" height="30"/>
     <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}!</a>
   </h3>
+  {% include site-post-feature.html %}
   {% include post-meta.html %}
   {{ page.excerpt | markdownify | truncatewords: 60 }}
 

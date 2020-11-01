@@ -66,7 +66,7 @@ collections:
     title: Posts # Needed for Siteleaf
     output: true
     description: "Open experiences in trading.." # The post list page content
-    feature_image: "assets/feature_images/josiah-gascho-BA-sT9iabco-unsplash.jpg"
+    feature_image: "/assets/feature_images/josiah-gascho-BA-sT9iabco-unsplash.jpg"
     aside: true
   category:
     output: true
@@ -102,7 +102,7 @@ defaults:
       path: "category/architecture"
       type: "category"
     values:
-      feature_image: "assets/feature_images/bruno-thethe-qyhLjwn6Gpc-unsplash.jpg"
+      feature_image: "/assets/feature_images/bruno-thethe-qyhLjwn6Gpc-unsplash.jpg"
   -
     scope:
       path: "products"
@@ -115,7 +115,7 @@ defaults:
     values:
       topic: Introduction
       sort_order: 1
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-6.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-6.gif"
       product: tesseract
   -
     scope:
@@ -123,35 +123,35 @@ defaults:
     values:
       topic: Interface
       sort_order: 4
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-3.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-3.gif"
   -
     scope:
       path: "products/tesseract/deployment"
     values:
       topic: Deployment
       sort_order: 5
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-5.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-5.gif"
   -
     scope:
       path: "products/tesseract/development"
     values:
       topic: Development
       sort_order: 6
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-7.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-7.gif"
   -
     scope:
       path: "products/tesseract/object-store"
     values:
       topic: "Object Store"
       sort_order: 2
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-1.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-1.gif"
   -
     scope:
       path: "products/tesseract/types-and-scripting"
     values:
       topic: "Types and Scripting"
       sort_order: 3
-      feature_image: "products/tesseract/images/Orthogonal_Tesseract_Gif-2.gif"
+      feature_image: "/products/tesseract/images/Orthogonal_Tesseract_Gif-2.gif"
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

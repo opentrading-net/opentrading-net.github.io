@@ -96,7 +96,6 @@ defaults:
       type: "category"
     values:
       layout: category # Set the default layout for category
-      feature_image: "https://docs.opentrading.net/assets/josiah-gascho-BA-sT9iabco-unsplash.jpg"
       aside: true
   -
     scope:
@@ -104,18 +103,6 @@ defaults:
       type: "category"
     values:
       feature_image: "https://docs.opentrading.net/assets/bruno-thethe-qyhLjwn6Gpc-unsplash.jpg"
-  -
-    scope:
-      path: "category/tesseract"
-      type: "category"
-    values:
-      feature_image: "https://docs.opentrading.net/products/tesseract/images/Orthogonal_Tesseract_Gif-6.gif"
-  -
-    scope:
-      path: "category/todo"
-      type: "category"
-    values:
-      feature_image: "https://docs.opentrading.net/assets/ahmad-dirini-F7Sive0fwIg-unsplash.jpg"
   -
     scope:
       path: "products"

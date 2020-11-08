@@ -5,6 +5,5 @@ excerpt: "About us..."
 aside: true
 ---
 
-# About us...
 
 

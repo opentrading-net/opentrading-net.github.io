@@ -1,5 +1,4 @@
 ---
-short_name: cwoolliscroft
 name: Craig Woolliscroft
 position: Founder of OTN
 ---

@@ -1,5 +1,4 @@
 ---
-short_name: dregan
 name: David Regan
 position: Founder of OTN
 ---

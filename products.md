@@ -6,6 +6,6 @@ aside: true
 ---
 
 
-
-[See Tesseract](../products/tesseract)
+# Tesseract
+See the product documentation [here](../products/tesseract)
 

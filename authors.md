@@ -7,7 +7,7 @@ aside: true
 
 <ul>
   {% for author in site.authors %}
-      <h3>{{ author.name }} {{ author.short_name }}</h3>
+      <h3>{{ author.name }}</h3>
       <p>{{ author.content | markdownify }}</p>
   {% endfor %}
 </ul>

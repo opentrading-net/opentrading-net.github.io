@@ -17,5 +17,5 @@
   <time datetime="{{ page.date | date_to_xmlschema }}" class="time">
     {{ page.date | date: date_format | append: "&nbsp;&middot;&nbsp;" }}
   </time>
-  <a href="{{ site.baseurl }}/authors/#{{author.short_name}}">{{ author.name }}</a>
+  <a href="{{ site.baseurl }}/authors/#{{page.author}}">{{page.author}}</a>
 </small>

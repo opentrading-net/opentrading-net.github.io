@@ -70,6 +70,8 @@ collections:
     aside: true
   category:
     output: true
+  authors:
+
 
 # 6. Jekyll collections settings
 defaults:

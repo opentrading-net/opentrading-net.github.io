@@ -7,7 +7,7 @@ aside: true
 
 
 ## David Regan
-![David Regan](/assets/David picture.jpg)
+![](/assets/images/dmr.png)
 
 David is ...
 

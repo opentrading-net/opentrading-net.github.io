@@ -12,9 +12,10 @@
 
 <small class="small  post-meta">
   {% assign date_format = site.date_format | default: "%d %b %Y" %}
+  {% assign author = site.authors | where:"short_name",page.author}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}
   <time datetime="{{ page.date | date_to_xmlschema }}" class="time">
     {{ page.date | date: date_format | append: "&nbsp;&middot;&nbsp;" }}
   </time>
-  <a href="{{ site.baseurl }}/authors/#{{page.author.short_name}}">{{ page.author }}</a>
+  <a href="{{ site.baseurl }}/authors/#{{author.short_name}}">{{ page.author.name }}</a>
 </small>

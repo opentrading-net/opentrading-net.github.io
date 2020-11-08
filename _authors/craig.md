@@ -1,0 +1,6 @@
+---
+short_name: cwoolliscroft
+name: Craig Woolliscroft
+position: Founder of OTN
+---
+Craig is a partner and founder of [Open Trading Network](https://docs.opentrading.net). He ...

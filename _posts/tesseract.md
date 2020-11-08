@@ -23,6 +23,10 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 
 ...
 
+![Tesseract](/assets/images/330px-Orthogonal_Tesseract_Gif.gif)
+
+![Tesseract](/assets/images/Net_of_tesseract.gif)
+
 ## Zen and the Art of Application Development
 
 1. Extensible data model

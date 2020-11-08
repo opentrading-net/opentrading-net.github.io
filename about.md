@@ -6,4 +6,11 @@ aside: true
 ---
 
 
+## David Regan
+![David Regan](assets/David picture.jpg)
 
+David is ...
+
+## Craig Woolliscroft
+
+Craig ...

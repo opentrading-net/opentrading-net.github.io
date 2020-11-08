@@ -5,7 +5,7 @@ excerpt: "Our products..."
 aside: true
 ---
 
-# Tesseract
+## Tesseract
 
 See the product documentation [here](../products/tesseract)
 

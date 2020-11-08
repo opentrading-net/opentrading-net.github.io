@@ -25,6 +25,15 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 
 ## Zen and the Art of Application Development
 
+1. Extensible data model
+2. Consistently generated User Interface
+3. No impedence mis-match in the data model
+4. Sessions - source control for business data
+5. Integration as a declaration
+6. Modular approach
+7. Lightweight landscape
+8. DevOps support
+
 
 
 [Aspect]: http://foo

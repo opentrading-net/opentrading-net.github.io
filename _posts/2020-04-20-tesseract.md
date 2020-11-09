@@ -28,9 +28,9 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 
 {% include figure.html image="/assets/images/Net_of_tesseract.gif" caption="https://commons.wikimedia.org/wiki/File:Net_of_tesseract.gif" %}
 
-![Tesseract](/assets/images/330px-Orthogonal_Tesseract_Gif.gif)
+{% include figure.html image="/assets/images/330px-Orthogonal_Tesseract_Gif.gif" caption="Animation showing each individual cube within the B4 Coxeter plane projection of the tesseract" %}
 
-![Tesseract](/assets/images/Net_of_tesseract.gif)
+
 
 ## Zen and the Art of Application Development
 

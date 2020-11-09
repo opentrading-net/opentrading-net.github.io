@@ -9,6 +9,8 @@ author: David Regan
 
 Tesseract is a radical approach to building business applications. It's a platform to support modular applications where the focus in on business logic to providing solutions for business; to short cut the development cycle; and avoid changing technologies being more of a hindrance than a help.
 
+<!--more-->
+
 The idea for Tesseract came out of experiences building a global metals, coal & concentrates solution for a mining comglomerate. After 15+ years of experience of configuring, extending and integrating CTRM solutions we had an epiphany with [Aspect] that we could finally give the Business exactly what they wanted for each of their business units (or at least pretty close).
 
 ## Aspect

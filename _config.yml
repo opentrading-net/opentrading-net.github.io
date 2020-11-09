@@ -68,6 +68,7 @@ collections:
     description: "Open experiences in trading.." # The post list page content
     feature_image: "assets/feature_images/josiah-gascho-BA-sT9iabco-unsplash.jpg"
     aside: true
+    permalink: /:year/:month/:day/:slug/
   category:
     output: true
   authors:

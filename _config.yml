@@ -99,11 +99,6 @@ defaults:
     values:
       layout: category # Set the default layout for category
       aside: true
-  -
-    scope:
-      path: "category/architecture"
-      type: "category"
-    values:
       feature_image: "assets/feature_images/bruno-thethe-qyhLjwn6Gpc-unsplash.jpg"
   -
     scope:

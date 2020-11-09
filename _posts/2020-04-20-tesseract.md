@@ -21,7 +21,10 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 
 ## Why the name?
 
-...
+> In geometry, the tesseract is the four-dimensional analogue of the cube; the tesseract is to the cube as the cube is to the square. Just as the surface of the cube consists of six square faces, the hypersurface of the tesseract consists of eight cubical cells. The tesseract is one of the six convex regular 4-polytopes.
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tesseract)</cite>
+
+{% include figure.html image="/assets/images/Net_of_tesseract.gif" caption="https://commons.wikimedia.org/wiki/File:Net_of_tesseract.gif" %}
 
 ![Tesseract](/assets/images/330px-Orthogonal_Tesseract_Gif.gif)
 

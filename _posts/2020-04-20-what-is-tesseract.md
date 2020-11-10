@@ -26,13 +26,19 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 > In geometry, the tesseract is the four-dimensional analogue of the cube; the tesseract is to the cube as the cube is to the square. Just as the surface of the cube consists of six square faces, the hypersurface of the tesseract consists of eight cubical cells. The tesseract is one of the six convex regular 4-polytopes.
 > -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tesseract)</cite>
 
+In the same way as a cube can be unfolder as a net of six squares in two dimensions, a hyper cube can be unfolded from four dimensional space into a net of eight cubes in three dimensional space. You can't visualise this, of course, but this figure from wikipedia tries hard...
+
 {% include figure.html image="/assets/images/Net_of_tesseract.gif" caption="https://commons.wikimedia.org/wiki/File:Net_of_tesseract.gif" %}
 
-{% include figure.html image="/assets/images/330px-Orthogonal_Tesseract_Gif.gif" caption="Animation showing each individual cube within the B4 Coxeter plane projection of the tesseract" %}
+Those eight cubes can be seen directly if you draw a tesseract as a graph of 16 vertices and 32 edges where one of the cubes in highlighted.
 
+{% include figure.html image="/assets/images/330px-Orthogonal_Tesseract_Gif-1.gif" caption="Animation showing each individual cube within the B4 Coxeter plane projection of the tesseract" %}
 
+So, why the name ... it was an attempt to capture some of multiple dimensions of our Tesseract product that come together to make some much greater than the parts - and like the Tesseract it's a bit hard to get your head around 
 
 ## Zen and the Art of Application Development
+
+
 
 1. Extensible data model
 2. Consistently generated User Interface

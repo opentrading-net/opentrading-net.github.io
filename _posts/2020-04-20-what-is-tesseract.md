@@ -19,14 +19,14 @@ Aspect is a basic CTRM that has some innovative features; in particular: a in-me
 
 ## Tesseract
 
-Tesseract takes the concept of a scriptable, extensible data model and builds a system based on this idea from the ground up. It uses modern, off-the-shelf technolgies (e.g. C#, [Roslyn], [DevExtreme Widgets], [SQL Server], [Azure DevOps]) to build a light weight application landscape that can allows technical BAs and developers to quickly build useful, performant applications.
+Tesseract takes the concept of a scriptable, extensible data model and builds a system based on this idea from the ground up. It uses modern, off-the-shelf technolgies (e.g. C#, [Roslyn], [DevExtreme Widgets], [SQL Server], [Azure DevOps]) to build a light weight application landscape that allows technical BAs and developers to quickly build useful, performant applications.
 
 ## Why the name?
 
 > In geometry, the tesseract is the four-dimensional analogue of the cube; the tesseract is to the cube as the cube is to the square. Just as the surface of the cube consists of six square faces, the hypersurface of the tesseract consists of eight cubical cells. The tesseract is one of the six convex regular 4-polytopes.
 > -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Tesseract)</cite>
 
-In the same way as a cube can be unfolder as a net of six squares in two dimensions, a hyper cube can be unfolded from four dimensional space into a net of eight cubes in three dimensional space. You can't visualise this, of course, but this figure from wikipedia tries hard...
+In the same way as a cube can be unfolded as a net of six squares in two dimensions, a hyper cube can be unfolded from four dimensional space into a net of eight cubes in three dimensional space. You can't visualise this, of course, but this figure from Wikipedia tries hard to convet the idea...
 
 {% include figure.html image="/assets/images/Net_of_tesseract.gif" caption="https://commons.wikimedia.org/wiki/File:Net_of_tesseract.gif" %}
 
@@ -34,7 +34,7 @@ Those eight cubes can be seen directly if you draw a tesseract as a graph of 16 
 
 {% include figure.html image="/assets/images/330px-Orthogonal_Tesseract_Gif-1.gif" caption="Animation showing each individual cube within the B4 Coxeter plane projection of the tesseract" %}
 
-So, why the name ... it was an attempt to capture some of multiple dimensions of our Tesseract product that come together to make some much greater than the parts - and like the Tesseract it's a bit hard to get your head around 
+So, why the name ... it's an attempt to capture some of multiple dimensions of our Tesseract product that come together to make some much greater than it's parts - and like the Tesseract it's a bit hard to get your head around!
 
 ## Zen and the Art of Application Development
 

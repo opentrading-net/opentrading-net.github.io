@@ -38,7 +38,7 @@ So, why the name ... it's an attempt to capture some of multiple dimensions of o
 
 ## Zen and the Art of Application Development
 
-
+Building good applications is hard. So many IT projects produce mediocre results for a variety of organisational and technology reasons. 
 
 1. Extensible data model
 2. Consistently generated User Interface

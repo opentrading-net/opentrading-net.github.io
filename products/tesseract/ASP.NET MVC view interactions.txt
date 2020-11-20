@@ -1,0 +1,34 @@
+SequenceDiagram [frame=false framecolor=steelblue label="MVC ASP.NET"] {
+  
+  actor user as "User"
+  lifeline browser as "Browser"
+  lifeline aspnet as "ASP.NET" autoactivate
+  lifeline viewController as "View Controller" autoactivate
+  
+  user --> browser "Navigate to View"
+  	activate browser
+  	browser --> aspnet "HTTP GET view=..."
+      aspnet --> viewController "Index(view, criteria)"
+      aspnet <-r- viewController "Partial view"		  
+    browser <-r- aspnet "Index.html"
+  user <-r- browser "Empty view page"
+ 	deactivate browser
+  
+  browser --> aspnet "HTTP GET View/Get?view={viewId}"
+  activate browser
+    aspnet --> viewController "Get(view, criteria)"
+    aspnet <-r- viewController "View/criteria JSON"		  
+  browser <-r- aspnet "View/criteria JSON"
+  note right of browser "Javascript renders view criteria form"
+ 	deactivate browser
+
+  user --> browser "Click query button"
+  	activate browser
+  	browser --> aspnet "HTTP POST View/Query view=..., criteria=..."
+      aspnet --> viewController "Query(view, criteria)"
+      aspnet <-r- viewController "View results JSON"		  
+    browser <-r- aspnet "View results JSON"
+	  note right of browser "Javascript renders view data grid etc."
+	user <-r- browser "Rendered view"
+ 		deactivate browser
+}

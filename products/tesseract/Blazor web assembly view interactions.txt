@@ -1,0 +1,28 @@
+SequenceDiagram [frame=false framecolor=steelblue label="Blazor WASM"] {
+  
+  actor user as "User"
+  lifeline browser as "Browser"
+  lifeline viewComponent as "View\nComponent" autoactivate
+  lifeline ui as "Tesseract\nUI" autoactivate
+  lifeline api as "Tesseract\nAPI" autoactivate
+  
+  user --> browser "Navigate to View"
+  	activate browser
+  	browser --> ui "HTTP GET view page"
+    browser <-r- ui "View.razor"
+    browser --> viewComponent "Get(view, criteria)"
+  		viewComponent --> api "GetView(view,criteria)"
+  		viewComponent <-r- api "viewCriteria"
+    browser <-r- viewComponent "View page with criteria form"		    
+  user <-r- browser 
+ 	deactivate browser
+  
+  user --> browser "Click query button"
+  	activate browser
+    browser --> viewComponent "Query(view, criteria)"
+  		viewComponent --> api "Query(view,criteria)"
+  		viewComponent <-r- api "dataViews"
+    browser <-r- viewComponent "View results"		  
+	user <-r- browser
+ 	deactivate browser
+}

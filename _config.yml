@@ -155,7 +155,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Open Trading Network" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/OTN logo.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/OTN logo_small.png" # Site logo, also used in jekyll-seo-tag
 small_logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
 description: "Open Trading Network's web site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://docs.opentrading.net/" # Site url, also used in jekyll-seo-tag

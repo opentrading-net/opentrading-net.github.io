@@ -12,6 +12,10 @@ I've worked in the IT industry since leaving University in the early 1990s. I wo
 
 I now run [Open Trading Network] with my business partner, Craig, and look forward to delivering more solutions to clients in the industry as their Business continues to evolve.
 
+
+<br>
+<br>
+
 ## Craig Woolliscroft
 ![](/assets/images/Craig_Portrait.png)
 

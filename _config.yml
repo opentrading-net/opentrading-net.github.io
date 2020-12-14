@@ -80,7 +80,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/logos/OTN logo.png" # Default image for sharing
+      image: "/assets/logos/OTN logo_small.png" # Default image for sharing
   -
     scope:
       path: ""

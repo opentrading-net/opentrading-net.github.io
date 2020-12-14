@@ -157,7 +157,7 @@ title: "Open Trading Network" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/OTN logo_small.png" # Site logo, also used in jekyll-seo-tag
 small_logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
 description: "Open Trading Network's web site" # Site description and default description, also used in jekyll-seo-tag
-url: "https://docs.opentrading.net/" # Site url, also used in jekyll-seo-tag
+url: "https://opentrading.net/" # Site url, also used in jekyll-seo-tag
 baseurl: "/"
 repo: "https://github.com/daviddarnes/alembic"
 email: "info@opentrading.net"
@@ -190,13 +190,13 @@ navigation_header:
 
 navigation_footer:
 - title: Created by Open Trading Network
-  url: https://docs.opentrading.net
+  url: https://opentrading.net
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/OpenTradingNet
   LinkedIn: https://www.linkedin.com/company/open-trading-network
   GitHub: https://github.com/opentrading-net.github.io
-  link: https://docs.opentrading.net
+  link: https://opentrading.net
   RSS: /feed.xml
   Email: mailto:info@opentrading.net
 

@@ -17,22 +17,13 @@ I now run [Open Trading Network] with my business partner, Craig, and look forwa
 <br>
 
 ## Craig Woolliscroft
-![](/assets/images/Craig_Portrait.png)
+![](/assets/images/Craig_Portrait2.png)
 
-Since 2006 Ive been working in the commodities industry, initially as a member of the risk team for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. I have since performed many project roles across Europe at various commodities trading companies, utilities companies and investment banks. On this journey I have been lucky enough to cover many areas of the commodities market both physical and financial including, oil, refined products, LPG, coal, freight, gas, power, metals and FX.  The roles IT delivery roles for business analysis, project management, optimisaation and business change with a regular focus on physical commodity middle & front office risk areas (Position, P&L, Exposure, Valuation, VAR & Scheduling/Logistics).
-Over the years I have obtained extensive experience implementing the CTRM solutions [Endur], [RightAngle], [Aspect] & custom IT solutions.
+Since 2006 Ive been working in the commodities industry, initially as a member of the risk team for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. 
+I have since performed many project roles across Europe at various commodities companies, including integrated oli, utilities, traders and investment banks. On this journey I have been lucky enough to cover many commodities markets both physical and financial including, oil, refined products, LPG, coal, freight, gas, power and metals. I have carried out sucessful IT delivery roles in business analysis, project management, optimisation and business change with a regular focus on middle & front office risk areas (Position, P&L, Exposure, Valuation, VAR & Scheduling/Logistics).
+Over the years I have obtained extensive experience implementing the CTRM solutions [Endur], [RightAngle], [Aspect] & custom IT solutions. 
 
-I am now excited to be running [Open Trading Network] with my business partner, David, and we thrive from the delivery of solutions to complex problems to benefit our clients across the commodities industry.
-
-
-
-
-Being an engineer by education difficult problem solving and logical thinking are my speciality.
-
-
-Following a 5 year degree in engineering I have been working in the commodities space since 
-
-
+I am now excited to be running [Open Trading Network] with my business partner, David. We thrive on the delivery of solutions to complex problems for the benefit of our clients across the commodities industry in a pragmatic and down-to-earth way.
 
 
 

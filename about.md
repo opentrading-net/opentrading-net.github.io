@@ -20,7 +20,7 @@ I now run [Open Trading Network] with my business partner, Craig, and look forwa
 ## Craig Woolliscroft
 ![](/assets/images/Craig_Portrait2.png)
 
-Since 2006 Ive been working in the commodities industry, initially as a member of the risk team for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. 
+Since 2006 I've been working in the commodities industry, initially as a member of the risk team for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. 
 I have since performed many project roles across Europe at various commodities companies, including integrated oli, utilities, traders and investment banks. On this journey I have been lucky enough to cover many commodities markets both physical and financial including, oil, refined products, LPG, coal, freight, gas, power and metals. I have carried out sucessful IT delivery roles in business analysis, project management, optimisation and business change with a regular focus on middle & front office risk areas (Position, P&L, Exposure, Valuation, VAR & Scheduling/Logistics).
 Over the years I have obtained extensive experience implementing the CTRM solutions [Endur], [RightAngle], [Aspect] & custom IT solutions. 
 

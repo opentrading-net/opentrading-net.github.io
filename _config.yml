@@ -43,6 +43,7 @@ twitter:
 #author: DavidDarnes # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: David Darnes # jekyll-seo-tag > real name
+  logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://twitter.com/opentradingnetwork
     - https://www.linkedin.com/in/opentradingnetwork

@@ -46,29 +46,29 @@ Here's some of the dimensions that make this possible:
     - Types are the building blocks of systems and if the types mirror the business domain then any technically minded analyst or commerically minded developer can model the business
     - Types define the data model and the operations on the data that support the business processes
     - Each business has its own way of working and expecting a vendor or consultancy to come up with type models that meet all the business requirements is expecting too much. Careful design can give a robust model for a given business domain but there will always be extensions or variations that a business will need to add
-1. Consistently generated User Interface
+2. Consistently generated User Interface
     - User interfaces for most business applications do not need to be overly complicated. Often the users of the our systems are experts and they will value efficiency and consistency over snazzy or flashy interactions
     - The artifacts that make up a graphical user interface (GUI), such as menus, forms, grids, etc., should be intuitive to use
     - For most business applications we don't need bespoke user interface design; instead we need a framework for attractive but consistent presentation of information and interactions with a user
     - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions that a user can take and the form or view will be presented to the user; and the set of interactions are consistent across all forms and views
-1. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
+3. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
     - An application should not be a closed system that only does whatever its original designers conceived it for; it should be an adaptable system that grows with the business develops
     - An application that supports invoicing and settlement should allow for a new module that supports sales tax determination. The original designer should not have needed to have foreseen this requirement for it to be possible to add it at a later date
-1. No impedence mis-match in the data model
+4. No impedence mis-match in the data model
    - Coding business logic in modern languages that use language-integrated queries on a data model closely aligned with the business domain is easy to maintain and develop
    - There should be no disconnect between the persisted form of the data and the query form. The traditional way to build applications is to have a business logic model and a conversion from this to a persisted relational model. This means the business logic in the application is often divorced from the reporting or integration solutions. This is not ideal - there should be one model and one way to access it and manipulate it
-1. Sessions - source control for business data  
+5. Sessions - source control for business data  
     - Most enterprise applications require robust auditing of data changes and Tesseract's object store keeps track of all data item changes and allows a users to view the state of the system at any point in time using a **session** concept
     - Development and deployment of applications require complex DevOps. Tesseract's **session** allows for development and data changes to be made in a live environment in an isolated session. This allows for much more flexible approaches for Dev and Test - something that traditional data intensive systems struggle with
     - In the commodities trading domain we have strict requirements for end-of-day/month Risk and Finance snapshots. Most systems struggle with the edge cases around managing these scenarios but Tesseract's **sessions** concept provides robust and flexible ways to manage these critical business processes.
-1. Integration as a declaration 
+6. Integration as a declaration 
     - Integration with a system should not be an afterthought. In modern architectures hosts of collorabiting microservices are often co-ordinated via pub/sub message buses. 
     - Tesseract automatically creates Open API specified REST services for all views declared on its data models - it's merely permissions that control access to these servics
     - The lightweight nature of Tesseract's architecture and it's microservice interfaces mean that coherent domains of services can be spun up into the larger enterprise architecure easily and seemlessly
-1. Lightweight landscape 
+7. Lightweight landscape 
     - Tesseract is a web application with a persistent SQL Server back-end. It is trivial to spin up multiple instances of the application and it's flexibility and strong integration capabilities give flexibility for all sorts of architectures. 
     - Most organiations have realised the value of cloud hosting and Tesseract is designed to be hosted in the cloud but it is environment agnostic. This means it can be hosted on Azure, AWS or on-premise
-1. DevOps support
+8. DevOps support
     - [Continuous Integration and Continuous Deployment] has been one of the most valuable contributions to software quality in the past few decades. Modern development teams are now well practiced at CI/CD processes for their releases and any application framework **must** work well seemlessly with these approaches
     - Tesseract has [REST] APIs for DEVOps and PowerShell cmdlets to access these APIs. Both can be integrated into a DevOps deployment pipeline
 

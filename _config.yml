@@ -38,16 +38,15 @@ plugins:
 paginate: 5 # jekyll-paginate > items per page
 paginate_path: category/all/page:num # jekyll-paginate > blog page
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-#twitter:
-#  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+twitter:
+  username: OpenTradingNetwork # jekyll-seo-tag > Owners twitter username
 #author: DavidDarnes # jekyll-seo-tag > default author
-#social: # jekyll-seo-tag > social overrides
-#  name: David Darnes # jekyll-seo-tag > real name
-#  links:  # jekyll-seo-tag > social aliases (sameAs)
-#    - https://twitter.com/DavidDarnes
-#    - https://www.facebook.com/daviddarnes
-#    - https://www.linkedin.com/in/daviddarnes
-#    - https://github.com/daviddarnes
+social: # jekyll-seo-tag > social overrides
+  name: David Darnes # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/opentradingnetwork
+    - https://www.linkedin.com/in/opentradingnetwork
+    - https://github.com/opentrading-net
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -80,7 +79,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/logos/OTN logo_small.png" # Default image for sharing
+      image: "/assets/logos/OTN logo.png" # Default image for sharing
   -
     scope:
       path: ""
@@ -155,7 +154,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Open Trading Network" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/OTN logo_small.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
 small_logo: "/assets/logos/OTN enso.png" # Site logo, also used in jekyll-seo-tag
 description: "Open Trading Network's web site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://docs.opentrading.net/" # Site url, also used in jekyll-seo-tag

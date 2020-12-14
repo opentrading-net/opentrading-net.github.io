@@ -5,7 +5,7 @@ excerpt: "Open Trading Networks builds solution for the commodity and energy tra
 aside: true
 ---
 
-Open Trading Networks builds solution for the commodity and energy trading sector.
+Open Trading Networks builds solutions for the commodity and energy trading sector.
 
 We're a small consultancy specialising in the build and integration of full lifecyle energy and mining commodity trading systems. Our partners have 30+ years of hands on experience with all aspects of the trading landscape: front to back.
 

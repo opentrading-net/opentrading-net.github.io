@@ -11,7 +11,7 @@ We're a small consultancy specialising in the design, build, integration and del
 
 We differentiate ourselves from our competitors with a collaborative, pragmatic and can-do attitude to the resolution of complex problems - with a focus on delivery!
 
-####Open Trading Network is...
+#### Open Trading Network is...
 
 * Open to new ideas in technology and commodities we think deeply about how technology can be used to improve your business
 * Open to collaboration with friends and colleagues in the industry

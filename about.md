@@ -20,11 +20,11 @@ I now run [Open Trading Network] with my business partner, Craig, and look forwa
 ## Craig Woolliscroft
 ![](/assets/images/Craig_Portrait2.png)
 
-Since 2006 I've been working in the commodities industry, initially as a member of the risk team for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. 
-I have since performed many project roles across Europe at various commodities companies, including integrated oli, utilities, traders and investment banks. On this journey I have been lucky enough to cover many commodities markets both physical and financial including, oil, refined products, LPG, coal, freight, gas, power and metals. I have carried out sucessful IT delivery roles in business analysis, project management, optimisation and business change with a regular focus on middle & front office risk areas including position, P&L, exposure, valuation and VAR.
+Since 2006 I've been working in the commodities industry, initially in the risk department for a large oil company on the crude oil trading desk where I cut my teeth in the understanding of the physical oil market and related derivative trades. 
+I have since performed many project roles across Europe at various commodities companies including, integrated oil, utilities, traders and investment banks. On this journey I have been lucky enough to cover muultiple commodities markets for both physical and financial business including, oil, refined products, LPG, coal, freight, gas, power and metals. I have carried out sucessful IT delivery roles in business analysis, project management, optimisation and business change with a regular focus on middle & front office risk areas including position, P&L, exposure, pricing/valuation and VAR.
 Over the years I have obtained extensive experience implementing the CTRM solutions [Endur], [RightAngle], [Aspect] & custom IT solutions. 
 
-I am now excited to be running [Open Trading Network] with my business partner, David. We thrive on the delivery of solutions to complex problems for the benefit of our clients across the commodities industry in a pragmatic and down-to-earth way.
+I am now excited to be running [Open Trading Network] with my business partner, David. We thrive on the delivery of solutions to complex problems for our clients across the commodities industry in a pragmatic and down-to-earth way.
 
 
 

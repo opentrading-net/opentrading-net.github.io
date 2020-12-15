@@ -7,7 +7,6 @@ aside: true
 
 Open Trading Network designs, builds and implements IT and business solutions for the commodity and energy trading industry.
 
-
 We're a small consultancy specialising in the build and integration of full lifecyle energy and mining commodity trading systems. Our partners have decades of hands-on experience with all aspects of the trading landscape: front to back. 
 We differentiate ourselves from our competitors with a collaborative, pragmatic and can-do attitude to the resolution of complex problems.
 

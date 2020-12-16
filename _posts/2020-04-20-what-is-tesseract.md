@@ -38,7 +38,7 @@ So, why the name ... it's an attempt to convery that the multiple dimensions of 
 
 ## Zen and the Art of Application Development
 
-Building good applications is hard. So many IT projects produce mediocre results for a variety of organisational and technology reasons. Often projects get distracted from solving the business problems by a host of technology issues; and yet a lot of business applications don't need a complicated approach they just need people who understand the business domain to be able to model the domain in as data and processes. To do this we need an application development framework that allows this focus. That's what Tesseract does.
+Building good applications is hard. So many IT projects produce mediocre results for a variety of organisational and technology reasons. Often projects get distracted from solving the business problems by a host of technology issues; and yet a lot of business applications don't need a complicated approach they just need people who understand the business domain and to be able to model the domain in as data and processes. To do this we need an application development framework that allows this focus. That's what Tesseract does.
 
 Here's some of the dimensions that make this possible:
 

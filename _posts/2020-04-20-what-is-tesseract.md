@@ -72,7 +72,7 @@ Here's some of the dimensions that make this possible:
     - [Continuous Integration and Continuous Deployment] has been one of the most valuable contributions to software quality in the past few decades. Modern development teams are now well practiced at CI/CD processes for their releases and any application framework **must** work well seemlessly with these approaches
     - Tesseract has [REST] APIs for DEVOps and PowerShell cmdlets to access these APIs. Both can be integrated into a DevOps deployment pipeline
 
-So that's Tesseract...each component of the system is interesting and useful but together the the different dimensions mean a truly, radical approach to application development.
+So that's Tesseract...each component of the system is interesting and useful but together the different dimensions mean a truly, radical approach to application development.
 
 
 [.NET Core]: https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet

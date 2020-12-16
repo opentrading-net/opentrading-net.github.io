@@ -52,7 +52,7 @@ Here's some of the dimensions that make this possible:
     - For most business applications we don't need bespoke user interface design; instead we need a framework for attractive but consistent presentation of information and interactions with a user
     - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented - and the set of user interactions will be consistent across the system
 3. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
-    - An application should not be a closed system that only does whatever its original designers conceived it for; it should be an adaptable system that grows with the business develops
+    - An application should not be a closed system that only does whatever its original designers conceived it for; it should be an adaptable system that grows as the business develops
     - An application that supports invoicing and settlement should allow for a new module that supports sales tax determination. The original designer should not have needed to have foreseen this requirement for it to be possible to add it at a later date
 4. No impedence mis-match in the data model
    - Coding business logic in modern languages that provide language-integrated queries on a data model closely aligned with the business domain are easy to maintain and develop

@@ -50,7 +50,7 @@ Here's some of the dimensions that make this possible:
     - User interfaces for most business applications do not need to be overly complicated. Often the users of the our systems are experts and they will value efficiency and consistency over snazzy or flashy interactions
     - The artifacts that make up a graphical user interface (GUI), such as menus, forms, grids, etc., should be intuitive to use
     - For most business applications we don't need bespoke user interface design; instead we need a framework for attractive but consistent presentation of information and interactions with a user
-    - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented. Moreover, the set of user interactions will be consistent across the system
+    - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented - and the set of user interactions will be consistent across the system
 3. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
     - An application should not be a closed system that only does whatever its original designers conceived it for; it should be an adaptable system that grows with the business develops
     - An application that supports invoicing and settlement should allow for a new module that supports sales tax determination. The original designer should not have needed to have foreseen this requirement for it to be possible to add it at a later date

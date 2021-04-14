@@ -1,0 +1,40 @@
+SequenceDiagram [frame=false framecolor=steelblue label="PowerShell"] {
+  
+  actor user as "User"
+  lifeline pwsh as "PowerShell" autoactivate
+  lifeline getEnv as "Get-Environment" autoactivate
+  lifeline env as "Environment" autoactivate
+  lifeline buildType as "Build-Type" autoactivate
+  
+
+  user --> pwsh "$env = Get-Environment -settings $settings"
+  	pwsh --> getEnv 
+  		getEnv --> getEnv "Initialise settings & object store"
+  		getEnv --> env "new"
+	 		getEnv --> env "Create transaction"  
+    pwsh <-- getEnv "TesseractEnvironment"
+  	deactivate getEnv 
+
+  user --> pwsh "Build-Type $env MyType.cs"
+  	pwsh --> buildType
+  		buildType --> buildType "..."
+  		buildType --> env "Commit"
+	 		buildType --> env "Create transaction"  
+    pwsh <-- buildType "TypeAssembly"
+  	deactivate buildType 
+  
+  user --> pwsh "$deals = from d in $env.ObjectStore select d"
+  	pwsh --> getEnv "get_ObjectStore"
+  	pwsh <-- getEnv "ObjectStore"
+  	deactivate getEnv 
+  
+  user --> pwsh "close"
+  	pwsh --> env "dispose"
+		  fragment alt "[write txn]" {
+        	env --> env "Rollback"
+		  	case "else"
+        	env --> env "Commit"
+	  	}
+  	deactivate env
+  	deactivate pwsh
+}

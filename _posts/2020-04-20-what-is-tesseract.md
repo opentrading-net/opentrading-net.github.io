@@ -34,7 +34,7 @@ Those eight cubes can be seen directly if you draw a tesseract as a graph of 16 
 
 {% include figure.html image="/assets/images/330px-Orthogonal_Tesseract_Gif-1.gif" caption="Animation showing each individual cube within the B4 Coxeter plane projection of the tesseract" %}
 
-So, why the name ... it's an attempt to convery that the multiple dimensions of our Tesseract product that come together to build something greater than it's parts - and like the Tesseract it's a bit hard to get your head around!
+So, why the name ... it's an attempt to convey that the multiple dimensions of our Tesseract product that come together to build something greater than it's parts - and like the Tesseract it's a bit hard to get your head around!
 
 ## Zen and the Art of Application Development
 
@@ -48,7 +48,7 @@ Here's some of the dimensions that make this possible:
     - Each business has its own way of working and expecting a vendor or consultancy to come up with type models that meet all the business requirements is expecting too much. Careful design can give a robust model for a given business domain but there will always be extensions or variations that a business will need to add
 2. Consistently generated User Interface
     - User interfaces for most business applications do not need to be overly complicated. Often the users of the our systems are experts and they will value efficiency and consistency over snazzy or flashy interactions
-    - The artifacts that make up a graphical user interface (GUI), such as menus, forms, grids, etc., should be intuitive to use
+    - The artefacts that make up a graphical user interface (GUI), such as menus, forms, grids, etc., should be intuitive to use
     - For most business applications we don't need bespoke user interface design; instead we need a framework for attractive but consistent presentation of information and interactions with a user
     - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented - and the set of user interactions will be consistent across the system
 3. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
@@ -64,7 +64,7 @@ Here's some of the dimensions that make this possible:
 6. Integration as a declaration 
     - Integration with a system should not be an afterthought. In modern architectures, hosts of collaborating microservices are often co-ordinated via pub/sub message buses
     - Tesseract automatically creates Open API specified REST services for all views declared on its data models - it's merely permissions that control access to these services
-    - The lightweight nature of Tesseract's architecture and it's microservice APIs mean that coherent domains of services can be spun up into the larger enterprise architecure easily and seemlessly
+    - The lightweight nature of Tesseract's architecture and it's microservice APIs mean that coherent domains of services can be spun up into the larger enterprise architecture easily and seemlessly
 7. Lightweight landscape 
     - Tesseract is a web application with a persistent SQL Server back-end. It is trivial to spin up multiple instances of the application and it's flexibility and strong integration capabilities give flexibility for all sorts of architectures. 
     - Most organiations have realised the value of cloud hosting and Tesseract is designed to be hosted in the cloud but it is environment agnostic. This means it can be hosted on Azure, AWS or on-premise

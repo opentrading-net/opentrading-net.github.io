@@ -19,7 +19,7 @@ The ramp removed leaving a large underfloor storage area with hatch:
 
 ![Removed ramp](images/Removed-ramp.jpeg)
 
-The van isn't big so there's not much room for a bed/kitchen/living area we decided on a design with a bench that would pull out to a bed and a drawer to pull out a basic kitchen. As the rear door opens vertically and kind of forms a roof so that you get should shelter for cooking.
+The van isn't big so there's not much room for a bed/kitchen/living area, so we decided on a design with a bench that would pull out to a bed and a drawer to pull out a basic kitchen. As the rear door opens vertically and kind of forms a roof so that you get should shelter for cooking.
 
 In this picture you can see the wooden floor put in over the original lowered floor and the frame for the bench and the start of the pull out section. When completed the bench and pull out section have alternating slats that make for a wide enough bed for two (just!)
 

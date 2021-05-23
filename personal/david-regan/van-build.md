@@ -4,7 +4,7 @@ excerpt: "Notes on converting a Peugeot Partner disability conversion to a micro
 ---
 # Peugeot Partner Micro-camper Build
 
-One of our cars was dying and we were looking for cheap but low mileage replacement. We live in the Lake District and enjoy a lot of outdoors activities (climbing, paraglding, kakaying, fell running etc.) so were attracted by a car that would behave like a van. After searching Autotrader we found a lot of Peugeot Partner MPVs (and Citroen Belingo's - which are the same vehicle rebadged) that had been disability converted. Typically, this meant low mileage and a low price - I think the target market tends to buy new due to subsidies and wanting peace of ming. A typical price is £4500 for less than 30,000 miles (e.g. [autotrader search]).
+One of our cars was dying and we were looking for cheap but low mileage replacement. We live in the Lake District and enjoy a lot of outdoors activities (climbing, paragliding, kakaying, fell running etc.) so were attracted by a car that would behave like a van. After searching Autotrader we found quite a few Peugeot Partner MPVs (and Citroen Belingo's - which are the same vehicle re-badged) that had been disability converted. Typically, this meant low mileage and a low price - I think the target market tends to buy new due to subsidies and wanting peace of mind. A typical price is £4500 for less than 30,000 miles (e.g. [Autotrader search]).
 
 So, after a quick dash to Manchester I came back the proud owner of our new van:
 
@@ -22,6 +22,7 @@ The ramp removed leaving a large underfloor storage area with hatch:
 The van isn't big so there's not much room for a bed/kitchen/living area we decided on a design with a bench that would pull out to a bed and a drawer to pull out a basic kitchen. As the rear door opens vertically and kind of forms a roof so that you get should shelter for cooking.
 
 In this picture you can see the wooden floor put in over the original lowered floor and the frame for the bench and the start of the pull out section. When completed the bench and pull out section have alternating slats that make for a wide enough bed for two (just!)
+
 ![Floor and bench build](images/Floor-and-bench-build.jpeg)
 
 We bought a memory foam 5" [mattress] cover from Amazon and cut it to size and into two bits - one for the bench seat and one for the bench back. The idea was to put them together to make the mattress when the bed is out

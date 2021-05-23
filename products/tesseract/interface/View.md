@@ -1,6 +1,6 @@
 ---
 title: View
-excerpt: "The tesseract user inteface view"
+excerpt: "The Tesseract user interface view"
 ---
 # View
 

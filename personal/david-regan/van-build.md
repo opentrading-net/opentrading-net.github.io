@@ -53,6 +53,8 @@ For heating, I bought a [2KW 12V Air Diesel Heater] and fitted it into the under
 
 ![Heater bench test](images/Heater.mp4)
 
+I also bought an [8l Electric Coolbox] from Halfords. This uses an electric heat pump to cool or heat items. It takes quite a bit of power (3A) so can't be run continuously but it's a good compromise to run it whilst driving and then a for a few hours when necessary. It fitted nicely between the front driving and passenger seat and made a useful cup holder!
+
 There was obviously quite a few electrical bits and bobs (wiring, fuse panel etc.) but that's about it. The last thing we bought were fitted [Thermal reflective blinds]. These work really well and give insulation in winter and reduce the heat in the Summer.
 
 It's been a really fun project fitting out the van - an interesting mix of metal, wood and electrical work with basic automotive engineering. Like all things, version two will be better but so far we're pleased with the end result.
@@ -66,3 +68,4 @@ It's been a really fun project fitting out the van - an interesting mix of metal
 [Autotrader search]: https://www.autotrader.co.uk/car-search?sort=relevance&postcode=ca78eu&radius=1500&make=PEUGEOT&model=PARTNER%20TEPEE&include-delivery-option=on&price-to=5000&maximum-mileage=35000
 [Thermal reflective blinds]: https://www.qtmdirect2u.com/products/peugeot-partner-tepee-mk2-2008-2018-thermal-reflective-blinds-8-piece-opening-rear-window.html
 [Drawer rails]: https://www.amazon.co.uk/gp/product/B07WYZ1FN4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+[8l Electric Coolbox]: https://www.halfords.com/motoring/travel-accessories/coolboxes/halfords-8-litre-12v-in-car-electric-coolbox-291085.html

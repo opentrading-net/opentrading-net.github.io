@@ -51,7 +51,7 @@ Here's the bed set up at dusk with the lights on inside.
 
 For heating, I bought a [2KW 12V Air Diesel Heater] and fitted it into the underfloor space. The kit comes with an awkwardly shaped fuel tank so I bought a better [5l fuel tank] that could also go under the floor. These heaters are very neat and work very well. There's quiet a long start-up time but once up to temperature they tick over quite quietly. There's a magnetic fuel pump and the fuel line is routed under the vehicle and up into the heater. You can mount the pump inside or out but I decided on mounting underneath so it's quieter.
 
-![Heater bench test](images/Heater.mp4)
+![Heater bench test](images/Heater-bench-test.png)
 
 I also bought an [8l Electric Coolbox] from Halfords. This uses an electric heat pump to cool or heat items. It takes quite a bit of power (3A) so can't be run continuously but it's a good compromise to run it whilst driving and then a for a few hours when necessary. It fitted nicely between the front driving and passenger seat and made a useful cup holder!
 

@@ -4,9 +4,7 @@ excerpt: "Notes on converting a Peugeot Partner disability conversion to a micro
 ---
 # Peugeot Partner Micro-camper Build
 
-One of our cars was dying and we were looking for cheap but low mileage replacement. We live in the Lake District and enjoy a lot of outdoors activities (climbing, paragliding, kakaying, fell running etc.) so were attracted by a car that would behave like a van. After searching Autotrader we found quite a few Peugeot Partner MPVs (and Citroen Belingo's - which are the same vehicle re-badged) that had been disability converted. Typically, this meant low mileage and a low price - I think the target market tends to buy new due to subsidies and wanting peace of mind. A typical price is £4500 for less than 30,000 miles (e.g. [Autotrader search]).
-
-So, after a quick dash to Manchester I came back the proud owner of our new van:
+One of our cars was dying and we were looking for cheap but low mileage replacement. We live in the Lake District and enjoy a lot of outdoors activities (climbing, paragliding, kakaying, fell running etc.) so were attracted by a car that would behave like a van. After searching Autotrader we found quite a few Peugeot Partner MPVs (and Citroen Belingo's - which are the same vehicle re-badged) that had been disability converted. Typically, this meant low mileage and a low price; I think the target market tends to buy new due to subsidies and wanting peace of mind. A typical price is £4500 for less than 30,000 miles (e.g. [Autotrader search]). After a quick dash to Manchester I came back the proud owner of our new van:
 
 ![New Van](images/Van.jpeg)
 
@@ -16,16 +14,15 @@ Cutting off the ramp...
 ![Removing the ramp](images/Removing-ramp.jpeg)
 
 The ramp removed leaving a large underfloor storage area with hatch:
-
 ![Removed ramp](images/Removed-ramp.jpeg)
 
-The van isn't big so there's not much room for a bed/kitchen/living area, so we decided on a design with a bench that would pull out to a bed and a drawer to pull out a basic kitchen. As the rear door opens vertically and kind of forms a roof so that you get should shelter for cooking.
+The van isn't big so there's not much room for a bed/kitchen/living area. We decided on a design with a bench that would pull out to a bed and a drawer to pull out a basic kitchen. As the rear door opens vertically and forms a kind of roof you get some shelter for cooking.
 
 In this picture you can see the wooden floor put in over the original lowered floor and the frame for the bench and the start of the pull out section. When completed the bench and pull out section have alternating slats that make for a wide enough bed for two (just!)
 
 ![Floor and bench build](images/Floor-and-bench-build.jpeg)
 
-We bought a memory foam 5" [mattress] cover from Amazon and cut it to size and into two bits - one for the bench seat and one for the bench back. The idea was to put them together to make the mattress when the bed is out
+We bought a memory foam 5" [mattress] cover from Amazon and cut it to size and into two bits - one for the bench seat and one for the bench back. The idea was to put them together to make the mattress when the bed is out.
 
 ![Bench](images/Bench.jpeg)
 
@@ -33,32 +30,33 @@ My Mother cleverly turned an old duvet into made-to-measure covers and adapted t
 
 ![Mattress](images/Mattress.jpeg)
 
-I built a wooden draw from plywood and fitted [drawer rails] to slide it under the bench. The rails are rated for 80kg load so the cooker/gas/utensils etc. are easily coped with
+I built a wooden draw from plywood and fitted [drawer rails] to slide it under the bench. The rails are rated for 80kg load so cope easily with the weight of cooker/gas/utensils etc.
 
 ![Long Mynd chilling](images/Long-Mynd-chilling.jpeg)
 
-It works as quite a good cooking setup - at least when the weather is Ok...
+It works as quite a good cooking setup - at least when the weather is OK...
 
 ![Long Mynd cooking](images/Long-Mynd-cooking.jpeg)
 
-For power I decided on using a Lithium Iron 'leisure battery' (not to be confused with a Lithium Ion) rather than a traditional lead-acid. The new technology is much lighter and can discharge and recharge to a much lower level than lead-acid. It's also a lot safer as I fitted it inside the van. I only went for 20Ah so that is small - although I was sent two by mistake so I could put in another in parallel ([LiFePo4 20Ah Lithium Battery]).
+For power, I decided on using a Lithium Iron 'leisure battery' (not to be confused with a Lithium Ion) rather than a traditional lead-acid. The new technology is much lighter and can discharge and recharge to a much lower level than lead-acid. It's also a lot safer for fitting inside the van. I only went for 20Ah to save space; although I was sent two by mistake so I could put in another in parallel ([LiFePo4 20Ah Lithium Battery]).
 
-To charge the battery I bought a [Split Charge Relay Kit] and (with considerable trouble) routed this from the car battery back to the leisure battery in the passenger compartment. These relays charge the battery when the car is running. With only 20Ah the battery is recharged in about half an hour's driving.
+To charge the battery I bought a [Split Charge Relay Kit] and (with considerable trouble) routed this from the car battery back to the leisure battery in the passenger compartment. These relays charge the battery when the car is running and with only 20Ah the battery is recharged in about half an hour's driving.
 
 The power is used for internal LED lighting ([12V 4 x LED Recessed Ceiling Light]); USB charging points the diesel heater and the cool-box fridge. Lights and USB etc. take negligible power but the heater start-up (which draws 7A) and the fridge take quite a lot of power. Given it's a micro-camper and we can recharge by driving a short way it didn't seem worth the expense of solar panels to give more power.
 
-Here's the bed set up at dusk with the lights on inside.
+Here's the bed set up at dusk with the lights on inside - you can see the [Thermal reflective blinds] fitted to the windows. These work really well and give insulation in winter and reduce the heat in the Summer.
+
 ![Long Mynd bed](images/Long-Mynd-bed.jpeg)
 
 For heating, I bought a [2KW 12V Air Diesel Heater] and fitted it into the underfloor space. The kit comes with an awkwardly shaped fuel tank so I bought a better [5l fuel tank] that could also go under the floor. These heaters are very neat and work very well. There's quiet a long start-up time but once up to temperature they tick over quite quietly. There's a magnetic fuel pump and the fuel line is routed under the vehicle and up into the heater. You can mount the pump inside or out but I decided on mounting underneath so it's quieter.
 
 ![Heater bench test](images/heater-bench-test.png)
 
-I also bought an [8l Electric Coolbox] from Halfords. This uses an electric heat pump to cool or heat items. It takes quite a bit of power (3A) so can't be run continuously but it's a good compromise to run it whilst driving and then a for a few hours when necessary. It fitted nicely between the front driving and passenger seat and made a useful cup holder!
+I also bought an [8l Electric Coolbox] from Halfords. This uses an electric heat pump to cool or heat items. It takes quite a bit of power (3A) so can't be run continuously but it's a good compromise to run it whilst driving and then for a few hours when necessary. It fitted nicely between the front driving and passenger seat and made a useful cup holder!
 
-There was obviously quite a few electrical bits and bobs (wiring, fuse panel etc.) but that's about it. The last thing we bought were fitted [Thermal reflective blinds]. These work really well and give insulation in winter and reduce the heat in the Summer.
+There was obviously quite a few electrical bits and bobs (wiring, fuse panel etc.) but that's about it. 
 
-It's been a really fun project fitting out the van - an interesting mix of metal, wood and electrical work with basic automotive engineering. Like all things, version two will be better but so far we're pleased with the end result.
+It's been a really fun project fitting out the van: an interesting mix of metal, wood and electrical work with basic automotive engineering. Like all things, version two will be better but so far we're pleased with the end result.
 
 [5l fuel tank]: https://www.amazon.co.uk/gp/product/B08K2MV913/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 [2KW 12V Air Diesel Heater]: https://www.ebay.co.uk/itm/402003429081

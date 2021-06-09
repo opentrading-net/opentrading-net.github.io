@@ -16,7 +16,7 @@ The object database and cache offer a session based, temporal access to data. Th
 
 The **object database** uses Microsoft's SQL Server as a persistent store but has only one main table - the **Object** table. All objects, including meta-data such as: types; users; sessions; etc., is stored in this table.
 
-Every object on creation is allocated a generated ID (using a short GUID algorithm) and is stored in the table. Because we store versions of different objects in sessions (to support what-if scenarios, development, etc.) then then primary key for an object includes a session identifier. The session is itself an object in the store. Although it's session identifier is the default session (empty string) - otherwise it would turtles all the way down!
+Every object on creation is allocated a generated ID (using a short GUID algorithm) and is stored in the table. Because we store versions of different objects in sessions (to support what-if scenarios, development, etc.) then the primary key for an object includes a session identifier. The session is itself an object in the store. Although it's session identifier is the default session (empty string) - otherwise it would turtles all the way down!
 
 ![Relational Schema](../images/DbSchema.png)
 

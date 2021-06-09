@@ -20,13 +20,13 @@ Every object on creation is allocated a generated ID (using a short GUID algorit
 
 ![Relational Schema](../images/DbSchema.png)
 
-Likewise an object has a type and the type is an object in the store. Types can have different session IDs but data is only stored against a type with a default session ID. It might be possible to relax this constraint but at this stage its hard to think about.
+Likewise, an object has a type and the type is an object in the store. Types can have different session IDs but data is only stored against a type with a default session ID. It might be possible to relax this constraint but at this stage it's hard to think about.
 
 The object table is implemented as a [Temporal Table](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?view=sql-server-2017). This is a SQL Server feature where the database keeps a history of changes to entries. It does this by having a current table and a history table and has a special query syntax for accessing a point in time snapshot of the data.
 
 ![Temporal Tables](../images/TemporalTables.png)
 
-The combination of sessions and temporaral tables gives us a versioned store for Business and system meta-data using a very simple model.
+The combination of sessions and temporal tables gives us a versioned store for Business and system meta-data using a very simple model.
 
 An example will make the data structure clearer.
 
@@ -34,11 +34,11 @@ The table below shows a collection of object data stored in the **object** table
 
 The detail of any object is stored in the **data** column in JSON format.
 
-At system initiatiion some types were created. Types are the only object that don't have a type ID. In the example below we have 3 types defined:
+At system initiation some types were created. Types are the only object that don't have a type ID. In the example below we have 3 types defined:
 
-- Session - a system type used to control changes within a user session. This construct means different versions of data can be stored in what-if scenarios; exploratory chanages etc.
-- User - an object that will be integral to the [access control](Security.md) mechanisms in the system.
-- Deal - a domain application type defined to support some sort of trading application in Tesseract.
+- **Session**: a system type used to control changes within a user session. This construct means different versions of data can be stored in what-if scenarios; exploratory chanages etc.
+- **User**: an object that will be integral to the [access control](Security.md) mechanisms in the system.
+- **Deal**: a domain application type defined to support some sort of trading application in Tesseract.
 
 We have two instance objects representing users registered to the sytem (Alice & Bob). Note the foreign key to the type that defines these as user data. Further note that these instances belong in the default session (blank session IDs).
 

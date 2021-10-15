@@ -16,7 +16,7 @@ The object store is an in-memory database of .NET objects with persistence to a 
 
 Type management and scripting allows for an extensible data model. Any object held in the store can be modified or extended to meet the business use case.
 
-All changes to types and their instances are audited in the persisted store and the concept of a [Session] allows access to the same instance at different points in time with different versions of types and data. The session implments 'source control for business data'.
+All changes to types and their instances are audited in the persisted store and the concept of a Session allows access to the same instance at different points in time with different versions of types and data. The session implements 'source control for business data'.
 
 ![Architecture](images/Architecture.png)
 
@@ -31,3 +31,9 @@ Lastly, a set of custom web based deployment tools simplify the definition of ty
 [Object Store]: todo
 [Type Management and Scripting]: todo
 [Interface]: todo
+[C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+[Roslyn]: https://en.wikipedia.org/wiki/Roslyn_(compiler)
+[.NET Core]: https://en.wikipedia.org/wiki/.NET
+[SQL Server]: https://en.wikipedia.org/wiki/Microsoft_SQL_Server
+[Azure]: https://en.wikipedia.org/wiki/Microsoft_Azure
+[REST]: https://en.wikipedia.org/wiki/Representational_state_transfer

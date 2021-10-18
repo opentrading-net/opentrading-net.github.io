@@ -7,7 +7,7 @@ aside: true
 
 ## William Baker
 
-![](/assets/images/will-bio.png)
+![](/assets/images/Will-bio.png)
 
 I have spent the last 30 years delivering projects in the energy and commodities sector ranging from power station finance, implementing central market power systems, global change and solution architecture for one of the world’s biggest oil and gas traders, investment banking, commodity software development, and more recently a green field trading and risk management platform for a leading global mining company.  I love the challenge of delivering value through the interaction of business and IT and the many facets of a business that spans mines, wells and power stations to end use customers 
 
@@ -26,7 +26,7 @@ I am now excited to be running [Open Trading Network] with my partners: David; C
 
 ## David Regan
 
-![](/assets/images/david-bio.png)
+![](/assets/images/David-bio.png)
 
 I've worked in the IT industry since leaving University in the early 1990s. I worked for 6 years at IBM at their Hursley Research and Development Lab. I was doing low-level work: initially microcode for point of sale terminals and later real-time Unix and embedded drivers to control the electricity network of South Wales. I left to become a contractor and moved into the financial industry. This was mostly technical/architecture work until I was hired as the team lead for Barcap to integrate a new global oil trading platform into their existing landscape. To say this was a baptism of fire is an understatement; I knew nothing of commodities trading and less about the selected platform, [RightAngle]. But I did a good job and realised how much more interesting this business was then just the technology behind IT systems. For the next 15 years I built CTRM trading platforms round Europe with [RightAngle], [Endur], [CXL], [Aspect] enhancing them with custom front ends, planning tools, dash boards, etc. and integrating them into Risk, Finance, Tax reporting and invoicing and scheduling systems.
 

@@ -15,7 +15,9 @@ Tesseract takes the concept of a scriptable, extensible data model and builds a 
 
 The motivation for Tesseract is to allow developers and analysts to focus on business logic and not system infrastructure.
 
-Tesseract is built on two pillars: the **Object Store** and **Type Management and Scripting**.
+Tesseract is built on two pillars: 
+- The **Object Store**
+- And **Type Management and Scripting**
 
 The object store is an in-memory database of .NET objects with persistence to a SQL database. Objects in the in-memory cache are transactional and a two phase commit scheme ensure integrity in memory and in the persisted store.
 

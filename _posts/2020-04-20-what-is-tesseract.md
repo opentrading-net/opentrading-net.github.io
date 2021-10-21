@@ -11,7 +11,7 @@ Tesseract is a radical approach to building business applications. It's a platfo
 
 <!--more-->
 
-The idea for Tesseract came out of experiences building a global metals, coal and concentrates solution for a mining company. After 20 years of experience of configuring, extending and integrating CTRM solutions our team had an epiphany with [Aspect] that we could finally give the business exactly what they wanted for each of their business units (or at least pretty close).
+The idea for Tesseract came out of experiences building a global metals, coal and concentrates solution for a leading mining company. After 20 years of experience of configuring, extending and integrating CTRM solutions our team had an epiphany with [Aspect] that we could finally give the business exactly the capability they needed for each of their business units (or at least pretty close).
 
 ## Aspect
 
@@ -38,23 +38,23 @@ So, why the name ... it's an attempt to convey that the multiple dimensions of o
 
 ## Zen and the Art of Application Development
 
-Building good applications is hard. So many IT projects produce mediocre results for a variety of organisational and technology reasons. Often projects get distracted from solving the business problems by a host of technology issues; and yet a lot of business applications don't need a complicated approach they just need people who understand the business domain and to be able to model the domain in as data and processes. To do this we need an application development framework that allows this focus. That's what Tesseract does.
+Building good applications is hard. So many IT projects produce mediocre results for a variety of organisational and technology reasons. Often projects get distracted from solving the business problems by a host of technology issues; and yet a lot of business applications don't need a complicated approach they just need people who understand the business domain and to be able to model the domain as data and processes. To do this we need an application development framework that allows this focus - that's what Tesseract does.
 
 Here's some dimensions that make this possible:
 
 1. It has an extensible type model
-    - Types are the building blocks of systems and if the types mirror the business domain then any technically minded analyst or commerically minded developer can model the business
+    - Types are the building blocks of systems and if the types mirror the business domain then any technically minded business analyst or commercially minded developer can model the business
     - Types define the data model and the operations on the data that support the business processes
-    - Each business has its own way of working and expecting a vendor or consultancy to come up with type models that meet all the business requirements is expecting too much. Careful design can give a robust model for a given business domain but there will always be extensions or variations that a business will need to add
+    - Each business has its own way of working and expecting a vendor or consultancy to come up with type models that meet all the business requirements is probably expecting too much. Careful design can give a robust model for a given business domain but there will always be extensions or variations that a business will need to add
 2. Consistently generated User Interface
-    - User interfaces for most business applications do not need to be overly complicated. Often the users of our systems are experts and they will value efficiency and consistency over snazzy or flashy interactions
+    - User interfaces for most business applications do not need to be overly complicated. Often the users of our systems are experts and they will value efficiency and consistency over snazzy or flashy interactions (export users want expert systems)
     - The artefacts that make up a graphical user interface (GUI), such as menus, forms, grids, etc., should be intuitive to use
     - For most business applications we don't need bespoke user interface design; instead we need a framework for attractive but consistent presentation of information and interactions with a user
-    - Tesseract generates its interface from type declarations. I.e. an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented - and the set of user interactions will be consistent across the system
+    - Tesseract generates its interface from type declarations, i.e., an analyst or developer can declare the data items on a form or view and the actions available to a user and the form or view will be presented - and the set of user interactions will be consistent across the system
 3. A modular approach to application development is needed. We should be able to mix and match different modules and extend them to build our application
     - An application should not be a closed system that only does whatever its original designers conceived it for; it should be an adaptable system that grows as the business develops
-    - An application that supports invoicing and settlement should allow for a new module that supports sales tax determination. The original designer should not have needed to have foreseen this requirement for it to be possible to add it at a later date
-4. No impedence mismatch in the data model
+    - For example, an application that supports invoicing and settlement should allow for a new module that supports sales tax determination. The original designer should not have needed to have foreseen this requirement for it to be possible to add it at a later date
+4. No impedance mismatch in the data model
    - Coding business logic in modern languages that provide language-integrated queries on a data model closely aligned with the business domain are easy to maintain and develop
    - There should be no disconnect between the persisted form of the data and the query form. The traditional way to build applications is to have a business logic model and convert this representation to and from the persisted relational form. This means the business logic in the application is often divorced from the reporting or integration solutions. This is not ideal - there should be one model and one way to access it and manipulate it
 5. Sessions - source control for business data  
@@ -70,7 +70,7 @@ Here's some dimensions that make this possible:
     - Most organizations have realised the value of cloud hosting and Tesseract is designed to be hosted in the cloud but it is environment agnostic. This means it can be hosted on Azure, AWS or on-premise
 8. DevOps support
     - [Continuous Integration and Continuous Deployment] has been one of the most valuable contributions to software quality in the past few decades. Modern development teams are now well practised at CI/CD processes for their releases and any application framework **must** work well seamlessly with these approaches
-    - Tesseract has [REST] APIs for DEVOps and PowerShell cmdlets to access these APIs. Both can be integrated into a DevOps deployment pipeline
+    - Tesseract has [REST] APIs for DevOps and PowerShell cmdlets to access these APIs. Both can be integrated into a DevOps deployment pipeline
 
 So that's Tesseract...each component of the system is interesting and useful but together the different dimensions mean a truly, radical approach to application development.
 

@@ -5,11 +5,15 @@ excerpt: "Open Trading Networks builds solution for the commodity and energy tra
 aside: true
 ---
 
-Open Trading Network designs, builds and implements IT and business solutions for the commodity and energy trading industry.
+Open Trading Network (OTN) is a 20-person strong boutique consultancy specialising in the design, build, integration and delivery management of full trade life-cycle commodity trading systems and processes. 
 
-We're a small consultancy specialising in the design, build, integration and delivery management of full trade life-cycle commodity trading systems and processes. Our partners have decades of hands-on experience with all aspects of the trading landscape: front to back.
+Our partners have decades of hands-on experience with all aspects of the trading landscape: front to back. The partners of OTN have personally worked with all of our employees & associates, each of which has a minimum of a decade of hands-on experience across all aspects of the trading landscape; front-to-back.
 
 We differentiate ourselves from our competitors with a collaborative, pragmatic and can-do attitude to the resolution of complex problems - with a focus on delivery!
+
+#### The services we provide
+
+![](/assets/images/services-offered.jpg)
 
 #### Open Trading Network is...
 

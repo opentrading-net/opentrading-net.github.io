@@ -70,5 +70,5 @@ $100,000 * 129.50 * 0.98742 -100,000 * 129 * 0.98675 - 100,000 * (130.00 - 129.0
 With these less favourable payment terms the deal is now a significant loss.
 
 ## Summary
-MTM seems like a simple concept but we've seen that determining a fair future value is not a simple task and that a model for net present value needs careful consideration. The points made about net present value and discount factors also apply to FX conversions done for reporting purposes. Most systems do not handle intermediate cash flows correctly for discounting nor FX conversions and these inaccuracies can lead to the wrong trading decisions being made.
+MTM seems like a simple concept but we've seen that determining a fair future value is not a simple task and that a model for net present value needs careful consideration. The points made about net present value and discount factors also apply to FX conversions done for reporting purposes. If you're reviewing your model for PnL then ensure the MTM NPV fair value is independent of the contract's price and payment terms and check whether your system or processes take intermediate cash flows into account for both discounting and FX reporting. If not, your PnL could be giving you the wrong signals.
 
